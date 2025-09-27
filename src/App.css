@@ -40,3 +40,71 @@
 .read-the-docs {
   color: #888;
 }
+
+.login-container {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-title {
+  color: #1877f2;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  margin-bottom: 1rem !important;
+}
+
+.login-btn {
+  background-color: #1877f2 !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  margin-bottom: 1rem !important;
+}
+
+.login-btn:hover {
+  background-color: #166fe5 !important;
+}
+
+.forgot-text {
+  margin-bottom: 1rem;
+}
+
+.forgot-link {
+  font-size: 14px;
+  color: #1877f2;
+}
+
+.divider {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.register-btn {
+  background-color: #42b72a !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 15px !important;
+}
+
+.register-btn:hover {
+  background-color: #36a420 !important;
+}
